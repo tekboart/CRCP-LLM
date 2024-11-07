@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import get_users, create_user
+from .views import get_nodes, create_nodes
 
 
 urlpatterns = [
-    path('users/', get_users, name='get_user'),
-    path('users/create/', create_user, name='create_user')
+    path('nodes/', get_nodes, name='get_nodes'),
+    path('nodes/create/', create_nodes, name='create_nodes')
 ]

@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import User
+from .models import Node
 
-class UserSerializer(serializers.ModelSerializer):
+class NodeSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = Node
         fields = '__all__'
