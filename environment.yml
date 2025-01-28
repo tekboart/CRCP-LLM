@@ -44,7 +44,7 @@ dependencies:
   - h2=4.1.0=pyhd8ed1ab_1
   - hpack=4.1.0=pyhd8ed1ab_0
   - httpcore=1.0.7=pyh29332c3_1
-  - httpx=0.28.1=pyhd8ed1ab_0
+  - httpx=0.27.0=py311h06a4308_0
   - hyperframe=6.1.0=pyhd8ed1ab_0
   - idna=3.7=py311h06a4308_0
   - intel-openmp=2023.1.0=hdb19cb5_46306
@@ -104,7 +104,7 @@ dependencies:
   - numpy=1.26.4=py311h08b1b3b_0
   - numpy-base=1.26.4=py311hf175353_0
   - ocl-icd=2.3.2=h5eee18b_1
-  - ollama=0.1.17=cuda120_h85e0b77_0
+  - ollama-python=0.4.7=pyhd8ed1ab_0
   - openh264=2.1.1=h4ff587b_0
   - openjpeg=2.5.2=he7f1fd0_0
   - openssl=3.4.0=h7b32b05_1
