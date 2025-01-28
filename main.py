@@ -4,6 +4,10 @@ from ollama import ResponseError
 
 import os
 
+# TODO: Add argparse for prompt and model
+
+# TODO: Add a Django API for LLM query
+
 # TODO: check the model (after fully pulled) without internet. (to ensure data privacy)
 
 # TODO: Can we provide the models locally to the chat(...)? (this way no connection to Ollama server is needed and data will be safe)
