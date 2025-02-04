@@ -1,23 +1,20 @@
-from ollama import chat, pull
-from ollama import ChatResponse
-from ollama import ResponseError
-
-import os
+from utils.llm.ollama import ollama_model_call
 
 # TODO: Add argparse for prompt and model
+# e.g., reading the prompt from a file (that has been written from an API call)
 
 # TODO: Add a Django API for LLM query
 
-# TODO: check the model (after fully pulled) without internet. (to ensure data privacy)
+# TODO: call the constants from a config file
 
-# TODO: Can we provide the models locally to the chat(...)? (this way no connection to Ollama server is needed and data will be safe)
-MODEL_NAME='llama3.2'  # works 100%
-# MODEL_NAME='llama3.2-vision'
-# MODEL_NAME='deepseek-r1:1.5b'
-# MODEL_NAME='deepseek-r1:7b'
+# TODO: Can we provide the models locally to the chat(...)? (this way no connection to Ollama server--for pulling the model--is needed and data will be safe)
+# llama models: 'llama3.2', 'llama3.2-vision' (multi-modal with image input), ???
+# MODEL_NAME='llama3.2'
+# Deepseek-R1 models: 'deepseek-r1:1.5b', 'deepseek-r1:7b', 'deepseek-r1:8b', 'deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b', 'deepseek-r1:671b'
+MODEL_NAME='deepseek-r1:32b'
 
 # Pass in the prompt
-MESSAGE_CONTENT = input("enter your prompt:")
+PROMPT = input("enter your prompt:")
 # Pass in the path to the image (only for Multi-Modal models, e.g., llama3.2-vision)
 # TODO: the ollama might have a method or attrib that can check which models are multi-modal and support input image (this way we only ask for image for relevant models).
 # IMAGE_PATH = input('Please enter the path to the image: ')
@@ -26,46 +23,7 @@ MESSAGE_CONTENT = input("enter your prompt:")
 # or the raw bytes
 # img = Path(path).read_bytes()
 
-flag = True
-while flag:
-    try:
-        # TODO: add logging INFO
-        # e.g., [Calling the model with the prompt]
-        # print('try: call model')
-        response: ChatResponse = chat(model=MODEL_NAME, messages=[
-          {
-            'role': 'user',
-            'content': MESSAGE_CONTENT,
-            # TODO: activate only for multi-modal models
-            # 'images': [IMAGE_PATH],
-          },
-          #TODO: enable 'model streaming'--for interactive prompting
-          # https://medium.com/@revlae/how-to-stop-ollama-model-streaming-600a222b4797
-          # stream=True,
-        ])
-        flag=False
-    except ResponseError as e:
-        print('except: call model')
-        print('Error:', e.error)
-        if e.status_code == 404:
-            # TODO: add logging WARNING
-            # e.g., [the model:{} is not installed. Now trying to pull it from Ollama server]
-            try:
-                print('try: pull model')
-                print(f'======= Pulling the {MODEL_NAME}: Start ======')
-                pull(MODEL_NAME)
-                print(f'======= Pulling the {MODEL_NAME}: End ======')
-            except Exception as e:
-                print('except: pull model')
-                print('Error', e.error)
-                break
-        else:
-            print('no e.status_code == 404')
-            # TODO: add logging DEBUG
-            break
-else:
-    print(f'Successful: Got the response from "{MODEL_NAME}" with no Error')
-    # TODO: add logging INFO
+response = ollama_model_call(PROMPT, model=MODEL_NAME)
 
 # print the response
 # method 1
