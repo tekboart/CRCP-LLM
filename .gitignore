@@ -21,3 +21,7 @@ pip-selfcheck.json
 .python-version
 [pP]ipfile
 [pP]ipfile.lock
+
+# Exclude sensitive data (They should be fetched from a secure DB, not locally)
+# ./data/literature
+./data/interviews
