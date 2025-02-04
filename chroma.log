@@ -150,3 +150,17 @@
 [32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35620 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
 [32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35608 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
 [32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35608 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 07:53:14] Shutting down
+[32mINFO[0m:     [04-02-2025 07:53:14] Waiting for application shutdown.
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component System
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component Posthog
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 07:53:14] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [04-02-2025 07:53:14] Application shutdown complete.
+[32mINFO[0m:     [04-02-2025 07:53:14] Finished server process [[36m52520[0m]
