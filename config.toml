@@ -1,0 +1,17 @@
+# TODO: Add the config files to the "main.py" (e.g., read the constants, e.g., "MODEL_NAME", from this TOML file)
+[project]
+name = 'archmanu_llm'
+version = "0.0.1"
+description = "Access to ArchManu private knowledge base using a local LLM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.3.35",
+    "loguru>=",
+    "",
+]
