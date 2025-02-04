@@ -1,0 +1,152 @@
+[33mWARNING[0m:  [04-02-2025 05:10:42] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [04-02-2025 05:10:42] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component System
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component Posthog
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [04-02-2025 05:10:42] Started server process [[36m49070[0m]
+[32mINFO[0m:     [04-02-2025 05:10:42] Waiting for application startup.
+[32mINFO[0m:     [04-02-2025 05:10:42] Application startup complete.
+[31mERROR[0m:    [04-02-2025 05:10:42] [Errno 98] error while attempting to bind on address ('127.0.0.1', 8000): address already in use
+[32mINFO[0m:     [04-02-2025 05:10:42] Waiting for application shutdown.
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component System
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component Posthog
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 05:10:42] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [04-02-2025 05:10:42] Application shutdown complete.
+[33mWARNING[0m:  [04-02-2025 06:08:08] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [04-02-2025 06:08:08] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component System
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component Posthog
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [04-02-2025 06:08:08] Started server process [[36m52400[0m]
+[32mINFO[0m:     [04-02-2025 06:08:08] Waiting for application startup.
+[32mINFO[0m:     [04-02-2025 06:08:08] Application startup complete.
+[31mERROR[0m:    [04-02-2025 06:08:08] [Errno 98] error while attempting to bind on address ('127.0.0.1', 8000): address already in use
+[32mINFO[0m:     [04-02-2025 06:08:08] Waiting for application shutdown.
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component System
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component Posthog
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 06:08:08] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [04-02-2025 06:08:08] Application shutdown complete.
+[33mWARNING[0m:  [04-02-2025 06:08:35] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [04-02-2025 06:08:35] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component System
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component Posthog
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [04-02-2025 06:08:35] Started server process [[36m52493[0m]
+[32mINFO[0m:     [04-02-2025 06:08:35] Waiting for application startup.
+[32mINFO[0m:     [04-02-2025 06:08:35] Application startup complete.
+[31mERROR[0m:    [04-02-2025 06:08:35] [Errno 98] error while attempting to bind on address ('127.0.0.1', 3333): address already in use
+[32mINFO[0m:     [04-02-2025 06:08:35] Waiting for application shutdown.
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component System
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component Posthog
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 06:08:35] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [04-02-2025 06:08:35] Application shutdown complete.
+[33mWARNING[0m:  [04-02-2025 06:08:41] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [04-02-2025 06:08:41] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component System
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component SqliteDB
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component Posthog
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component LocalExecutor
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component SegmentAPI
+[36mDEBUG[0m:    [04-02-2025 06:08:41] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [04-02-2025 06:08:41] Started server process [[36m52520[0m]
+[32mINFO[0m:     [04-02-2025 06:08:41] Waiting for application startup.
+[32mINFO[0m:     [04-02-2025 06:08:41] Application startup complete.
+[32mINFO[0m:     [04-02-2025 06:08:41] Uvicorn running on [1mhttp://localhost:55555[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [04-02-2025 06:10:05] 127.0.0.1:42510 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:05] 127.0.0.1:42520 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:05] 127.0.0.1:42520 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:05] 127.0.0.1:42510 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:46] 127.0.0.1:57078 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [04-02-2025 06:10:47] 127.0.0.1:57078 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [04-02-2025 06:10:51] 127.0.0.1:57078 - "GET /docs HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:52] 127.0.0.1:57078 - "GET /openapi.json HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:10:52] 127.0.0.1:57078 - "GET /~%40fontsource/roboto/400.css HTTP/1.1" 404
+[32mINFO[0m:     [04-02-2025 06:10:52] 127.0.0.1:57078 - "GET /~%40fontsource/roboto/700.css HTTP/1.1" 404
+[32mINFO[0m:     [04-02-2025 06:10:52] 127.0.0.1:57090 - "GET /assets/images/clockify_logo_dark.svg HTTP/1.1" 404
+[32mINFO[0m:     [04-02-2025 06:13:07] 127.0.0.1:38736 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 400
+[32mINFO[0m:     [04-02-2025 06:16:53] 127.0.0.1:37256 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:16:53] 127.0.0.1:37270 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:16:53] 127.0.0.1:37270 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:16:53] 127.0.0.1:37256 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:16] 127.0.0.1:55094 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:16] 127.0.0.1:55104 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:16] 127.0.0.1:55104 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:16] 127.0.0.1:55094 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:53] 127.0.0.1:38078 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:53] 127.0.0.1:38086 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:53] 127.0.0.1:38086 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:17:53] 127.0.0.1:38078 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:10] 127.0.0.1:35860 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:10] 127.0.0.1:35868 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:10] 127.0.0.1:35868 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:32] 127.0.0.1:56594 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:32] 127.0.0.1:56606 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:32] 127.0.0.1:56606 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:18:32] 127.0.0.1:56594 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:20:47] 127.0.0.1:45018 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:20:47] 127.0.0.1:45022 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:20:47] 127.0.0.1:45022 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:20:47] 127.0.0.1:45018 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:32:02] 127.0.0.1:32840 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:32:02] 127.0.0.1:32842 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:32:02] 127.0.0.1:32842 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:32:02] 127.0.0.1:32840 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:34:19] 127.0.0.1:59472 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:34:19] 127.0.0.1:59482 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:34:19] 127.0.0.1:59482 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:34:19] 127.0.0.1:59472 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:35:18] 127.0.0.1:34520 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:35:18] 127.0.0.1:34532 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:35:18] 127.0.0.1:34532 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:35:18] 127.0.0.1:34520 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35608 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35620 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35620 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35608 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [04-02-2025 06:37:00] 127.0.0.1:35608 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
